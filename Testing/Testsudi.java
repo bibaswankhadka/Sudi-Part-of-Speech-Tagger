@@ -79,8 +79,8 @@ public class Testsudi {
 	// Tests simple tests
 	public static void main(String[] args) throws IOException{
 		Testsudi tester = new Testsudi();
-		tester.testviturbi("inputs/simple-test-sentences.txt", "PS5/output.txt", "inputs/simple-train-sentences.txt", "inputs/simple-train-tags.txt");
-		tester.similaritychecker("inputs/simple-test-tags.txt", "PS5/output.txt");
+		tester.testviturbi("inputs/simple-test-sentences.txt", "Testing/output.txt", "inputs/simple-train-sentences.txt", "inputs/simple-train-tags.txt");
+		tester.similaritychecker("inputs/simple-test-tags.txt", "Testing/output.txt");
 
 		// TODO Auto-generated method stub
 
